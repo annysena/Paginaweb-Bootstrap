@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,13 +17,19 @@
         }
     </style>
     <title>Sound+</title>
+    <link rel="icon" 
+      type="image/jpg" 
+      href="../Paginaweb-Bootstrap/assets/img/disco-de-musica.png" />
 </head>
 
-<body>
+
+<body style="background-color: #D8F29F;">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #253103">
-        <a class="navbar-brand text-light" href="#"> Sound+</a>
+        <img src="../Paginaweb-Bootstrap/assets/img/disco-de-musica.png" height="30" alt="" loading="lazy">
+        <a class="navbar-brand text-light mx-2" href="# "> Sound+</a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -40,6 +47,7 @@
                         Categorias
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Em alta</a>
                         <a class="dropdown-item" href="#">Eletrônica</a>
                         <a class="dropdown-item" href="#">Sertanejo</a>
                         <a class="dropdown-item" href="#">Funk</a>
@@ -89,22 +97,22 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100"
-                    src="../Paginaweb-Bootstrap/assets/img/630dj-MUSICA-ELETRONICA-PICK-UP-PIXABAY-1280x720.jpg"
-                    alt="Primeiro Slide">
+                    src="../Paginaweb-Bootstrap/assets/img/Cópia de Orange Real Estate Flowchart.png"
+                    alt="Primeiro Slide" height="500px" width="500px">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100"
-                    src="../Paginaweb-Bootstrap/assets/img/violão-para-iniciantes-1280x720.jpg"
-                    alt="Segundo Slide">
-            </div>
+           
             <div class="carousel-item">
                 <img class="d-block w-100"
                     src="../Paginaweb-Bootstrap/assets/img/roda-de-samba-1280x720.jpg"
-                    alt="Terceiro Slide">
+                    alt="Terceiro Slide" height="500px" width="300px">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100"
-                    src="../Paginaweb-Bootstrap/assets/img/show-1280x720.jpeg" alt="Terceiro Slide">
+                    src="../Paginaweb-Bootstrap/assets/img/show-1280x720.jpeg" alt="Terceiro Slide" height="500px" width="300px">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="../Paginaweb-Bootstrap/assets/img/630dj-MUSICA-ELETRONICA-PICK-UP-PIXABAY-1280x720.jpg" height="500px" width="300px">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -119,79 +127,99 @@
     <!-- /Carousel -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color: #D8F29F;">
         <h1 class="display-4">Ouça muito!</h1>
-        <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou
-            informação.</p>
+        <p class="lead">Que tal experimentar navegar em nossa página para descobrir as tendências musicais <br> e ouvi-lás com conforto e em qualquer lugar? <br> Assine já e curta o momento.</p>
         <hr class="my-4">
-        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
+        <p>Aqui você encontrará as melhores sugestões de músicas e álbuns em alta nas paradas.</p>
         <a class="btn btn-outline-light btn-lg" href="#" role="button " style="background: #253103">Leia mais</a>
     </div>
     <!-- /Jumbotron -->
 
+    <h3 class="display-4 text-center align-self-center mb-5" style="font-size: 2.5rem;">Alguns dos melhores álbuns e também os mais tocados</h3>
+    
+
     <!-- Cards -->
     <div class="container">
         <div class="card-columns">
-            <div class="card">
+            <div class="card"style="background-color: #D8F29F;">
                 <img class="card-img-top" src="../Paginaweb-Bootstrap/assets/img/halsey_manic.jpg"
                     alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">HALSEY - MANIC</h5>
-                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
-                </div>
+
+                    <div>
+                        <div class="card p-3 text-right"style="background-color: #fff0e9;">
+                            <blockquote class="blockquote mb-0">
+                                <p>HALSEY - MANIC</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                        <cite title="Título da fonte">Dica para ouvir: "Alanis' Interlude"</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body" style="background-color: #fff0e9;">
+                            <p class="card-text">O que Halsey fez em seu terceiro álbum de estúdio, Manic, é algo que a maioria dos pop e rockstars demora uma vida para conseguir realizar. Profundamente autobiográfico sem soar egocêntrico, Manic se organiza na bagunça, e consegue flutuar entre amor e ódio entre uma faixa e outra, depositando em sua voz e no arranjo um monte de sentimentos, para o ouvinte traduzir. Entre as pérolas estão o single "You Should be Sad", "Alanis' Interlude", que conta com todo o poder vocal de Alanis Morissette, e "Still Learning", uma jornada de auto-conhecimento. </p>
+                        </div>
+                    </div>
+                
             </div>
-            <div class="card p-3">
-                <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
+         
+            <div class="card" style="background-color: #D8F29F;">
                 <img class="card-img-top" src="../Paginaweb-Bootstrap/assets/img/the_weeknd_after_hours.jpg"
                     alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">THE WEEKND - AFTER HOURS</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                </div>
+
+                    <div>
+                        <div class="card p-3 text-right" style="background-color: #fff0e9;">
+                            <blockquote class="blockquote mb-0">
+                                <p>THE WEEKND - AFTER HOURS</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                       <cite title="Título da fonte">Dica para ouvir: "Hardest to Love"</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body" style="background-color: #fff0e9;">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Quando se olha o contexto geral do pop em 2020, dá para sentir que o momento é propício para a reinvenção de cada uma de suas maiores estrelas. Um dos maiores exemplos nesse sentido é o novo álbum do The Weeknd, After Hours, lançado em março. Enquanto a voz do cantor segue característica, e por isso suas músicas são inconfundíveis, After Hours veio para provar uma evolução artística profunda para o canadense. Um dos fatores que mais chama atenção aqui é a coesão entre faixas, que faz com que After Hours soe como uma longa jornada musical só, cheia de auto-reflexão - não é coincidência que o disco não tenha nenhuma participação de outros artistas. </p>
+                            
+                        </div>
+                    </div>
+                
             </div>
 
-            <div class="card text-center">
-                <div class="card-body">
-                    <h5 class="card-title">THE WEEKND - AFTER HOURS</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img" src="../Paginaweb-Bootstrap/assets/img/future_nostalgia_dua_lipe.jpg"
-                    alt="Imagem do card">
-            </div>
-            <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                    <p>DUA LIPA - FUTURE NOSTALGIA</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para
-                        mostrar a altura igual, em ação.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                </div>
+            
+            <div class="card" style="background-color: #D8F29F;">
+                <img class="card-img-top" src="../Paginaweb-Bootstrap/assets/img/future_nostalgia_dua_lipe.jpg"
+                    alt="Imagem de capa do card">
+
+                    <div>
+                        <div class="card p-3 text-right" style="background-color: #fff0e9;">
+                            <blockquote class="blockquote mb-0">
+                                <p>DUA LIPA - FUTURE NOSTALGIA</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                       <cite title="Título da fonte">Dica para ouvir: "Love Again"</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body" style="background-color: #fff0e9;">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">É tão bom quando o pop produz um álbum único, bem-vindo, que vem para introduzir elementos que ninguém estava usando antes. Quem fez isso este ano foi Dua Lipa. Fazendo jus à uma estreia explosiva em 2017, o segundo álbum da cantora, Future Nostalgia, criou um novo tipo de sonoridade juntando tudo que é nostálgico dos anos 80 com um pop tanto futurista quanto retrô. Parece confuso, mas o resultado não poderia ser mais coeso. Repleto de pérolas, Future Nostalgia funciona do começo ao fim, investindo na voz rouca e sedutora da cantora, e ainda recheado de empoderamento e cutucadas ao patriarcado. </p>
+                           
+                        </div>
+                    </div>
+                
             </div>
         </div>
 
@@ -200,16 +228,10 @@
         <!-- Texto e Video -->
         <div class="row my-5">
             <div class="col-md-6">
-                <h3>Texto teste</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore repellat assumenda.
-                    Repellendus fugit est error eaque, similique voluptates architecto voluptate quos veniam ducimus
-                    expedita eligendi nobis. Id, inventore tenetur?
+                <h3>Álbuns e artistas queridinhos de 2020</h3>
+                <p>A música mais escutada de 2020 foi “Blinding Lights” do The Weeknd, com mais de 1,6 bilhão de streams. No segundo e terceiro lugares, respectivamente, estão “Dance Monkey” de Tones And I e “The Box” de Roddy Ricch. A quarta música mais ouvida do ano foi “Roses – Imanbek Remix” de Imanbek e SAINt JHN, seguida por “Don’t Start Now” de Dua Lipa.
                 </p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus veniam reprehenderit sapiente
-                    ad
-                    sint. Culpa voluptate iure autem dolores, omnis aliquid voluptas. Quasi quibusdam ab ad aliquam
-                    impedit
-                    voluptates fuga!</p>
+                <p>O álbum mais escutado globalmente em 2020 foi YHLQMDLG de Bad Bunny, que acumulou mais de 3,3 bilhões streams, seguido por The Weeknd com After Hours e o álbum Hollywood’s Bleeding de Post Malone. Completando a lista dos maiores álbuns estão Harry Styles com Fine Line e Dua Lipa como Future Nostalgia.</p>
             </div>
 
             <div class="col-md-6">
